@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+input {
+  outline: none;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+.flex_column {
+  flex-direction: column;
+}
+.grid {
+  display: grid;
+}
+.grid_2_cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid_3_cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid_4_cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+label {
+  font-size: 2rem;
+  color: #555;
+}

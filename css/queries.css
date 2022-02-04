@@ -1,0 +1,74 @@
+@media (max-width: 950px) {
+  .page9,
+  .page10 {
+    display: flex;
+    flex-direction: column;
+  }
+  h3 {
+    font-size: 4.2rem;
+  }
+  .page3_list ul li a {
+    font-size: 1.4rem;
+  }
+  .page3_header,
+  .page4_header {
+    display: flex;
+    flex-direction: column;
+  }
+  .page9_left {
+    margin-top: 6rem;
+    padding: 0 5rem;
+  }
+  .page3_right form input {
+    width: 100%;
+    padding: 0.4rem;
+  }
+  .page10_right {
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 710px) {
+  .nav_list ul li {
+    font-size: 1.2rem;
+  }
+  .nav_list ul li i {
+    padding: 0.5rem 0.7rem;
+  }
+  h3 {
+    font-size: 0.8rem;
+  }
+  .page3_list ul li a {
+    font-size: 1.2rem;
+  }
+  .date div select {
+    padding: 0.4rem;
+    font-size: 0.8rem;
+  }
+  .page3_right a button {
+    padding: 0.9rem 0;
+    margin-top: 0.9rem;
+  }
+  .page4_right form input {
+    padding: 0.5rem;
+  }
+  .page4_right form input {
+  }
+  .page4_right form input {
+    padding: 1rem;
+  }
+  .page4_header {
+    display: flex;
+    flex-direction: column;
+  }
+  .page4_left {
+    margin-left: 4rem;
+  }
+}
+@media (max-width: 510px) {
+  .page3_list ul li a {
+    font-size: 1rem;
+  }
+  .nav_list ul {
+    margin-top: 1.2rem;
+  }
+}
