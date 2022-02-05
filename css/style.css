@@ -99,6 +99,10 @@ head {
   display: block;
   margin: 0.4rem auto;
 }
+.factory_img {
+  position: absolute;
+  right: 0;
+}
 .factory_img img {
   width: 60%;
 
@@ -120,3 +124,52 @@ head {
   font-size: 1.2rem;
   margin-top: 1.5rem;
 }
+/* -----------------------course style ---------------------------------*/
+.course {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 4rem;
+  padding: 2.4rem;
+}
+.course_nav img {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+}
+.course_btn ul {
+  display: flex;
+  justify-content: center;
+}
+.course_btn ul li {
+  padding: 1rem 2.8rem;
+  border: 0.1rem solid black;
+  transition: 0.4s all ease-in-out;
+  font-size: 1.3rem;
+}
+.course_btn ul li:nth-child(1) {
+  border-radius: 0.8rem 0 0 0.8rem;
+}
+.course_btn ul li:nth-child(3) {
+  border-radius: 0rem 0.8rem 0.8rem 0;
+}
+.course_btn ul li:hover {
+  background-color: black;
+  color: #fff;
+}
+.course_head {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.course_left img {
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+}
+.course_right {
+  max-width: 70%;
+  line-height: 2.5;
+  font-size: 1.1rem;
+}
+/* -----------------------sessions style ---------------------------------*/
