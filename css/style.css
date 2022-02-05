@@ -128,7 +128,8 @@ head {
 .course,
 .sessions,
 .masters,
-.faqs {
+.faqs,
+.free {
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-top: 4rem;
@@ -244,4 +245,51 @@ span {
 .faqs-list ul li span {
   font-size: 2.4rem;
   cursor: pointer;
+}
+/* course style */
+.course_item {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+}
+.free {
+  min-height: 40vh;
+}
+.free_item {
+  margin-top: 1.4rem;
+}
+.free_left b {
+  font-size: 1.3rem;
+}
+.free_item i {
+  background-color: green;
+  border-radius: 50%;
+  color: #fff;
+  padding: 0.3rem;
+  margin-right: 1rem;
+}
+.free_right {
+  background-color: black;
+  color: #fff;
+  min-height: 30vh;
+  border-radius: 3rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.free_right h3 {
+  font-size: 1.4rem;
+  margin: 1rem 0;
+}
+.free_right h4 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.free_right a {
+  font-size: 1.2rem;
+  background-color: coral;
+  color: #fff;
+  padding: 1rem 4rem;
+  border-radius: 1rem;
+  margin-top: 1.2rem;
 }
