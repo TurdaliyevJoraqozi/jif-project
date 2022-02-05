@@ -126,7 +126,8 @@ head {
 }
 /* -----------------------course style ---------------------------------*/
 .course,
-.sessions {
+.sessions,
+.masters {
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-top: 4rem;
@@ -204,4 +205,24 @@ head {
 }
 .sec-card-right p {
   line-height: 2;
+}
+/* master-head style------------------------ */
+.master-head {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  margin: 0.7rem 0;
+}
+.item img {
+  object-fit: cover;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.item b,
+span {
+  text-align: center;
 }
