@@ -125,13 +125,15 @@ head {
   margin-top: 1.5rem;
 }
 /* -----------------------course style ---------------------------------*/
-.course {
+.course,
+.sessions {
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-top: 4rem;
   padding: 2.4rem;
 }
-.course_nav img {
+.course_nav img,
+.title img {
   display: block;
   margin: 0 auto;
   width: 20%;
@@ -173,3 +175,33 @@ head {
   font-size: 1.1rem;
 }
 /* -----------------------sessions style ---------------------------------*/
+.card_nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f8f8;
+  padding: 1.4rem 0;
+}
+.card_item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  min-height: 20vh;
+  padding-top: 1.4rem;
+}
+.sec-card-left {
+  position: relative;
+  padding: 1.2rem;
+}
+.sec-card-left img {
+  position: absolute;
+  top: 2.7%;
+  left: 2.7%;
+  border-radius: 0.8rem;
+  width: 20%;
+  height: 60%;
+}
+.sec-card-right {
+  max-width: 80%;
+}
+.sec-card-right p {
+  line-height: 2;
+}
