@@ -1,74 +1,381 @@
-@media (max-width: 950px) {
-  .page9,
-  .page10 {
-    display: flex;
-    flex-direction: column;
+@media (max-width: 1072px) {
+  nav {
+    min-height: 36rem;
   }
-  h3 {
-    font-size: 4.2rem;
+  .hero {
+    top: 15%;
+    width: 70%;
   }
-  .page3_list ul li a {
-    font-size: 1.4rem;
+  .factory {
+    height: 28rem;
+    margin-top: 10rem;
   }
-  .page3_header,
-  .page4_header {
-    display: flex;
-    flex-direction: column;
+  .factory_img1 {
+    margin-top: -6rem;
+    height: 16rem;
   }
-  .page9_left {
-    margin-top: 6rem;
-    padding: 0 5rem;
-  }
-  .page3_right form input {
+  .course_right p {
     width: 100%;
-    padding: 0.4rem;
   }
-  .page10_right {
-    margin-top: 1rem;
+  .sec-card-left img {
+    width: 29%;
+    height: 84%;
   }
-}
-@media (max-width: 710px) {
-  .nav_list ul li {
-    font-size: 1.2rem;
+  .free_right {
+    min-height: 24vh;
   }
-  .nav_list ul li i {
-    padding: 0.5rem 0.7rem;
+
+  .project_left p {
+    max-width: 90%;
   }
-  h3 {
-    font-size: 0.8rem;
+  .project_right img {
+    height: 90%;
+    width: 70%;
   }
-  .page3_list ul li a {
-    font-size: 1.2rem;
+  .factory_img img {
+    width: 40%;
   }
-  .date div select {
-    padding: 0.4rem;
-    font-size: 0.8rem;
+  .sec-card-right {
+    max-width: 100%;
   }
-  .page3_right a button {
-    padding: 0.9rem 0;
-    margin-top: 0.9rem;
-  }
-  .page4_right form input {
-    padding: 0.5rem;
-  }
-  .page4_right form input {
-  }
-  .page4_right form input {
-    padding: 1rem;
-  }
-  .page4_header {
-    display: flex;
-    flex-direction: column;
-  }
-  .page4_left {
-    margin-left: 4rem;
+  .course_right {
+    max-width: 100%;
   }
 }
-@media (max-width: 510px) {
-  .page3_list ul li a {
+@media (max-width: 912px) {
+  .hero {
+    top: 4%;
+  }
+  .sec-card-left img {
+    height: 39%;
+  }
+  .request {
+    height: 30rem;
+  }
+}
+
+@media (max-width: 802px) {
+  .hero {
+    top: 20%;
+  }
+  .hero_right img {
+    height: 75%;
+  }
+  .hero_left h2 {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+  }
+  .hero_left p {
+    margin: 1rem 0;
+  }
+  nav {
+    min-height: 29rem;
+  }
+  .sec-card-left img {
+    width: 37%;
+  }
+  .img-right {
+    margin-left: 10rem;
+  }
+  .course_head {
+    display: grid;
+    grid-template-columns: 1fr 2.7fr;
+  }
+  .card_item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .course_left img {
+    width: 100%;
+  }
+  .factory_img1 {
+    min-height: 10rem;
+  }
+  .factory_img1 img {
+    width: 45%;
+  }
+  .factory_img img {
+    width: 40%;
+  }
+
+  .scedule_date ul li {
+    padding: 1.2rem 2rem;
+    margin: 0.5rem 1.1rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  .item b,
+  span {
+    font-size: 0.8rem;
+  }
+  .static {
+    width: 25%;
+  }
+  .project_left p {
     font-size: 1rem;
   }
-  .nav_list ul {
-    margin-top: 1.2rem;
+}
+@media (max-width: 718px) {
+  .hero {
+    background-color: #fff;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    top: 10%;
+    left: 15%;
+    width: 75%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+}
+@media (max-width: 618px) {
+  nav {
+    min-height: 23rem;
+  }
+  .menus ul li a {
+    font-size: 1rem;
+  }
+  .factory {
+    margin-top: 6rem;
+    height: 27rem;
+  }
+  .factory_img img {
+    width: 20%;
+    margin-left: 25rem;
+  }
+
+  .hero_left a {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  .hero {
+    top: 7%;
+  }
+  .hero_left p {
+    margin-top: 1rem;
+    line-height: 1.8;
+    font-size: 0.8rem;
+  }
+  .factory_img1 {
+    min-height: 8rem;
+  }
+  .factory_img img {
+    width: 34%;
+  }
+  .factory_img1 {
+    margin-top: -5rem;
+    height: 10rem;
+  }
+  .factory_img img {
+    width: 17%;
+  }
+
+  .factory_desc p {
+    font-size: 1.1rem;
+  }
+  .course_btn ul li {
+    padding: 1rem 1.2rem;
+    font-size: 1rem;
+  }
+  .course_right p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  .item span {
+    display: none;
+  }
+  .item b {
+    font-size: 0.8rem;
+  }
+  .request_left h3 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+  .request_left input {
+    width: 80%;
+    padding: 1rem;
+  }
+  .project_head {
+    display: flex;
+    flex-direction: column;
+  }
+  .project_right {
+    display: none;
+  }
+  .static {
+    width: 11%;
+    font-size: 1.2rem;
+  }
+  .scedule_date ul li {
+    padding: 1.2rem 1rem;
+    background-color: #ffffff;
+    margin: 1rem 1.4rem;
+    font-weight: 700;
+    font-size: 1.4rem;
+    letter-spacing: 0.8rem;
+  }
+  .sec-card-left img {
+    width: 40%;
+    height: 60%;
+  }
+  .img-right {
+    margin-left: 8rem;
+  }
+  .free_right {
+    width: 100%;
+  }
+}
+@media (max-width: 528px) {
+  .course_left img {
+    width: 100%;
+  }
+  .hero {
+    width: 90%;
+    left: 2.5rem;
+    top: 1rem;
+  }
+  .factory {
+    margin-top: 25rem;
+    height: 30rem;
+  }
+  .sec-card-left img {
+    height: 49%;
+  }
+  .yoq {
+    display: none;
+  }
+  .free_left b {
+    font-size: 1.1rem;
+  }
+  .free_right h4 {
+    font-size: 1rem;
+    margin-top: 0.4rem;
+  }
+  .free_right h3 {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+  }
+  .free_right a {
+    padding: 0.6rem 1rem;
+    border-radius: 0.7rem;
+  }
+  .free_right {
+    height: 43vh;
+    margin-top: 3rem;
+  }
+  .trues i {
+    padding: 0.2rem;
+  }
+  .static {
+    width: 16%;
+  }
+  .scedule_date ul li {
+    padding: 1rem;
+  }
+  .endd {
+    font-size: 1rem;
+  }
+  .course_register div a {
+    padding: 0.6rem 1rem;
+  }
+  .foot_imgg img {
+    width: 52%;
+  }
+  .factory_img img {
+    margin-left: 11rem;
+  }
+  .factory_img1 {
+    margin-top: -3rem;
+    height: 8rem;
+  }
+  .img-right {
+    margin-left: 6rem;
+  }
+  /* nav-----------------------bar */
+  nav {
+    display: none;
+  }
+  .factory_img img {
+    margin-left: 28rem;
+  }
+  .free_right {
+    height: 22rem;
+    margin-top: 0rem;
+  }
+  .free_right h4 {
+    font-size: 1rem;
+    margin-top: 4.4rem;
+  }
+}
+@media (max-width: 392px) {
+  .hero {
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  .hero_left h2 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  .hero_left p {
+    margin-top: 0;
+    line-height: 1.3;
+  }
+  .hero_left a {
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+  }
+  .course_btn ul li {
+    padding: 0.4rem 1rem;
+
+    font-size: 0.7rem;
+  }
+  .card_nav ul {
+    padding: 1rem;
+  }
+  .sec-card-left img {
+    height: 49%;
+    width: 80%;
+  }
+  .master,
+  .project,
+  .free {
+    padding: 1rem;
+  }
+  .free_right {
+    height: 100%;
+    border-radius: 1rem;
+  }
+  .schedule_course ul li {
+    font-size: 0.9rem;
+  }
+  .scedule_date ul li {
+    padding: 0.5rem;
+    margin: 0.2rem;
+    font-size: 0.9rem;
+  }
+
+  .static {
+    width: 21%;
+  }
+  .factory {
+    margin-top: 19rem;
+    height: 18rem;
+  }
+  .null {
+    display: none;
+  }
+
+  .factory_img1 {
+    min-height: 6rem;
+    width: 10rem;
+    border-radius: 1.3rem;
+  }
+  .factory_img img {
+    width: 21%;
+    margin-left: 19rem;
+  }
+  .img-right {
+    display: none;
   }
 }

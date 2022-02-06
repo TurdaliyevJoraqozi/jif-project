@@ -1,0 +1,483 @@
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  min-height: 48rem;
+  padding: 1rem;
+}
+.logo img {
+  width: 4rem;
+}
+head {
+  position: relative;
+}
+.menus ul {
+  display: flex;
+}
+.menus ul li a {
+  font-size: 1.3rem;
+  margin-right: 1.3rem;
+  color: #fff;
+}
+.menus ul li a:hover {
+  color: coral;
+}
+.register1 a {
+  background-color: #555;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 0.8rem;
+}
+.hero {
+  background-color: #fff;
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  top: 10%;
+  left: 15%;
+  width: 75%;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.hero_right img {
+  width: 80%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.hero_left {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.ui_ux {
+  position: absolute;
+  top: 30%;
+  width: 95%;
+}
+.hero_left h2 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin-top: 4rem;
+}
+.hero_left h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.hero_left p {
+  margin: 5rem 0;
+  line-height: 2;
+}
+.hero_left a {
+  padding: 1rem;
+  text-align: center;
+  background-color: coral;
+  color: #fff;
+  font-size: 1.4rem;
+  width: 50%;
+  border-radius: 1rem;
+}
+/* factory---------- */
+.factory {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 50vh;
+  padding: 2rem;
+  margin-top: 15rem;
+}
+.factory_nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+  position: relative;
+}
+.factory_nav img {
+  width: 50%;
+}
+.factory_img1 {
+  background-color: black;
+  border-radius: 2rem;
+  padding: 1.2rem;
+  height: 20rem;
+  margin-top: -10rem;
+}
+.factory_img1 img {
+  width: 65%;
+  display: block;
+  margin: 0.4rem auto;
+  margin-top: 2rem;
+}
+.factory_img {
+  position: absolute;
+  right: 0;
+}
+.factory_img img {
+  width: 60%;
+  margin: 0.4rem auto;
+}
+
+.factory_icons ul {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.factory_icons ul li {
+  margin-bottom: 1.2rem;
+}
+.factory_desc {
+  line-height: 2;
+  color: #555;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+/* -----------------------course style ---------------------------------*/
+.course,
+.sessions,
+.masters,
+.faqs,
+.free,
+.project,
+.schedule {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 4rem;
+  padding: 2.4rem;
+}
+.course_nav img,
+.title img {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+}
+.course_btn ul {
+  display: flex;
+  justify-content: center;
+}
+.course_btn ul li {
+  padding: 1rem 2.8rem;
+  border: 0.1rem solid black;
+  transition: 0.4s all ease-in-out;
+  font-size: 1.3rem;
+}
+.course_btn ul li:nth-child(1) {
+  border-radius: 0.8rem 0 0 0.8rem;
+}
+.course_btn ul li:nth-child(3) {
+  border-radius: 0rem 0.8rem 0.8rem 0;
+}
+.course_btn ul li:hover {
+  background-color: black;
+  color: #fff;
+}
+.course_head {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.course_left img {
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+}
+.course_right {
+  max-width: 70%;
+  line-height: 2.5;
+  font-size: 1.1rem;
+}
+/* -----------------------sessions style ---------------------------------*/
+.card_nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f8f8;
+  padding: 1.4rem 0;
+}
+.card_item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  min-height: 20vh;
+  padding-top: 1.4rem;
+}
+.sec-card-left {
+  position: relative;
+  padding: 1.2rem;
+}
+.sec-card-left img {
+  position: absolute;
+  top: 2.7%;
+  left: 2.7%;
+  border-radius: 0.8rem;
+  width: 20%;
+  height: 60%;
+}
+.sec-card-right {
+  max-width: 80%;
+}
+.sec-card-right p {
+  line-height: 2;
+}
+.img-right {
+  margin-left: 9rem;
+}
+/* master-head style------------------------ */
+.master-head {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  margin: 0.7rem 0;
+}
+.item img {
+  object-fit: cover;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.item b,
+span {
+  text-align: center;
+}
+/* faq style */
+.faq {
+  background-color: #f8f8f8;
+}
+.faq_title img {
+  width: 10%;
+}
+.faqs-list ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem 2.3rem;
+  background-color: rgba(252, 248, 248, 0.979);
+  margin-top: 1.2rem;
+}
+.faqs-list ul li span {
+  font-size: 2.4rem;
+  cursor: pointer;
+}
+/* course style */
+.course_item {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+}
+.free {
+  min-height: 40vh;
+}
+.free_item {
+  margin-top: 1.4rem;
+}
+.free_left b {
+  font-size: 1.3rem;
+}
+.free_item i {
+  background-color: green;
+  border-radius: 50%;
+  color: #fff;
+  padding: 0.3rem;
+  margin-right: 1rem;
+}
+.free_right {
+  background-color: black;
+  color: #fff;
+  height: 100%;
+  width: 70%;
+  border-radius: 2rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.free_right h3 {
+  font-size: 1.4rem;
+  margin: 1rem 0;
+}
+.free_right h4 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.free_right a {
+  font-size: 1.2rem;
+  background-color: coral;
+  color: #fff;
+  padding: 1rem 4rem;
+  border-radius: 1rem;
+  margin-top: 1.2rem;
+}
+/* request style------------------ */
+.request {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: black;
+  color: #fff;
+  margin-top: 2rem;
+  min-height: 40vh;
+  padding: 1.2rem;
+}
+.request_left {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.request_left h3 {
+  margin-top: 8rem;
+  font-size: 2rem;
+}
+.request_left p {
+  margin: 1.3rem 0;
+  max-width: 40rem;
+}
+.request_left input {
+  width: 60%;
+  outline: none;
+  padding: 1.2rem;
+  background-color: rgba(250, 227, 227, 0.333);
+  border: none;
+  border-radius: 0.8rem;
+}
+.request_right img {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+/* project style----------- */
+.project_head {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 1.1rem;
+}
+.project_left h3 {
+  font-weight: 800;
+  font-size: 2rem;
+}
+.project_left p {
+  max-width: 60%;
+  margin: 1.2rem 0;
+  line-height: 2;
+  font-size: 1.2rem;
+}
+.trues div p {
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 0;
+}
+.trues i {
+  background-color: green;
+  color: #fff;
+  border-radius: 50%;
+  padding: 0.3rem;
+}
+.project_right img {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+.static {
+  padding: 1rem 2rem;
+  background-color: #eee8ee;
+  width: 15%;
+  font-size: 2rem;
+  border-radius: 0.8rem;
+}
+.btns {
+  display: flex;
+  justify-content: space-evenly;
+}
+.prev {
+  padding: 1rem 2rem;
+  background-color: #eee8ee;
+  border-radius: 0.7rem;
+  border: 1px solid #eee8ee;
+  margin-right: 1.2rem;
+}
+.prev:hover {
+  border: 1px solid black;
+}
+.next {
+  padding: 1rem 2rem;
+  background-color: #eee8ee;
+  border-radius: 0.7rem;
+  border: 1px solid #eee8ee;
+}
+.next:hover {
+  border: 1px solid black;
+}
+/* .schedule style */
+.schedule {
+  background-color: #eee8eebb;
+}
+.schedule_course ul {
+  display: flex;
+  justify-content: center;
+}
+.schedule_course ul li {
+  margin: 0 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+.scedule_date ul {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+.scedule_date ul li {
+  padding: 1.2rem 4rem;
+  background-color: #ffffff;
+  margin: 1rem 1.4rem;
+  font-weight: 900;
+  font-size: 2rem;
+  letter-spacing: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 0.8rem;
+}
+.course_register {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.2rem;
+}
+.course_register div span {
+  background-color: black;
+  color: #fff;
+  border-radius: 0.6rem;
+  font-size: 1.2rem;
+  padding: 0.4rem 0.8rem;
+}
+.course_register div p {
+  margin: 0 1.2rem;
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+.course_register div a {
+  font-size: 1.2rem;
+  background-color: coral;
+  color: #fff;
+  padding: 1rem 4rem;
+  border-radius: 1rem;
+  margin-top: 1.2rem;
+}
+/* footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.4rem;
+}
+.foot_item {
+  display: flex;
+}
+.foot_item div {
+  margin-right: 1.2rem;
+}
+.endd {
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+.foot_imgg img {
+  margin-left: 6rem;
+}
+.free_foot {
+  margin-top: 2.2rem;
+}
