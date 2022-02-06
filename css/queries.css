@@ -1,14 +1,18 @@
 @media (max-width: 1072px) {
   nav {
-    min-height: 90vh;
+    min-height: 36rem;
   }
   .hero {
-    top: 8%;
-    left: 9%;
+    top: 15%;
     width: 70%;
   }
   .factory {
-    height: 40vh;
+    height: 28rem;
+    margin-top: 10rem;
+  }
+  .factory_img1 {
+    margin-top: -6rem;
+    height: 16rem;
   }
   .course_right p {
     width: 100%;
@@ -28,14 +32,31 @@
     height: 90%;
     width: 70%;
   }
-  .factory {
-    margin-top: 10rem;
-    height: 88vh;
+  .factory_img img {
+    width: 40%;
+  }
+  .sec-card-right {
+    max-width: 100%;
+  }
+  .course_right {
+    max-width: 100%;
   }
 }
+@media (max-width: 912px) {
+  .hero {
+    top: 4%;
+  }
+  .sec-card-left img {
+    height: 39%;
+  }
+  .request {
+    height: 30rem;
+  }
+}
+
 @media (max-width: 802px) {
   .hero {
-    top: 28%;
+    top: 20%;
   }
   .hero_right img {
     height: 75%;
@@ -44,16 +65,25 @@
     margin-top: 2rem;
     font-size: 1.6rem;
   }
+  .hero_left p {
+    margin: 1rem 0;
+  }
+  nav {
+    min-height: 29rem;
+  }
+  .sec-card-left img {
+    width: 37%;
+  }
+  .img-right {
+    margin-left: 10rem;
+  }
   .course_head {
     display: grid;
     grid-template-columns: 1fr 2.7fr;
   }
   .card_item {
     display: grid;
-    grid-template-columns: 1fr 4fr;
-  }
-  .sec-card-left img {
-    width: 54%;
+    grid-template-columns: 1fr 2fr;
   }
   .course_left img {
     width: 100%;
@@ -85,11 +115,30 @@
     font-size: 1rem;
   }
 }
+@media (max-width: 718px) {
+  .hero {
+    background-color: #fff;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    top: 10%;
+    left: 15%;
+    width: 75%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+}
 @media (max-width: 618px) {
+  nav {
+    min-height: 23rem;
+  }
   .menus ul li a {
     font-size: 1rem;
   }
-
+  .factory {
+    margin-top: 6rem;
+    height: 27rem;
+  }
   .factory_img img {
     width: 20%;
     margin-left: 25rem;
@@ -100,7 +149,7 @@
     font-size: 1rem;
   }
   .hero {
-    top: 37%;
+    top: 7%;
   }
   .hero_left p {
     margin-top: 1rem;
@@ -113,10 +162,14 @@
   .factory_img img {
     width: 34%;
   }
-  .factory {
-    margin-top: 5rem;
-    height: 79vh;
+  .factory_img1 {
+    margin-top: -5rem;
+    height: 10rem;
   }
+  .factory_img img {
+    width: 17%;
+  }
+
   .factory_desc p {
     font-size: 1.1rem;
   }
@@ -127,7 +180,6 @@
   .course_right p {
     font-size: 1rem;
     line-height: 1.6;
-    text-align: center;
   }
   .item span {
     display: none;
@@ -163,14 +215,20 @@
     letter-spacing: 0.8rem;
   }
   .sec-card-left img {
-    width: 78%;
+    width: 40%;
+    height: 60%;
+  }
+  .img-right {
+    margin-left: 8rem;
+  }
+  .free_right {
+    width: 100%;
   }
 }
 @media (max-width: 528px) {
   .course_left img {
     width: 100%;
   }
-
   .hero {
     width: 90%;
     left: 2.5rem;
@@ -178,9 +236,10 @@
   }
   .factory {
     margin-top: 25rem;
+    height: 30rem;
   }
   .sec-card-left img {
-    height: 86%;
+    height: 49%;
   }
   .yoq {
     display: none;
@@ -225,9 +284,27 @@
   .factory_img img {
     margin-left: 11rem;
   }
+  .factory_img1 {
+    margin-top: -3rem;
+    height: 8rem;
+  }
+  .img-right {
+    margin-left: 6rem;
+  }
   /* nav-----------------------bar */
   nav {
     display: none;
+  }
+  .factory_img img {
+    margin-left: 28rem;
+  }
+  .free_right {
+    height: 22rem;
+    margin-top: 0rem;
+  }
+  .free_right h4 {
+    font-size: 1rem;
+    margin-top: 4.4rem;
   }
 }
 @media (max-width: 392px) {
@@ -258,6 +335,7 @@
   }
   .sec-card-left img {
     height: 49%;
+    width: 80%;
   }
   .master,
   .project,
@@ -265,7 +343,7 @@
     padding: 1rem;
   }
   .free_right {
-    height: 60%;
+    height: 100%;
     border-radius: 1rem;
   }
   .schedule_course ul li {
@@ -282,7 +360,7 @@
   }
   .factory {
     margin-top: 19rem;
-    height: 21rem;
+    height: 18rem;
   }
   .null {
     display: none;
@@ -290,10 +368,14 @@
 
   .factory_img1 {
     min-height: 6rem;
-    width: 7rem;
+    width: 10rem;
     border-radius: 1.3rem;
   }
   .factory_img img {
     width: 21%;
+    margin-left: 19rem;
+  }
+  .img-right {
+    display: none;
   }
 }
