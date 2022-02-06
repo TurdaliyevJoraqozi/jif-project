@@ -43,6 +43,8 @@ head {
 .hero_right img {
   width: 80%;
   height: 100%;
+  display: block;
+  margin: 0 auto;
 }
 .hero_left {
   display: flex;
@@ -129,7 +131,9 @@ head {
 .sessions,
 .masters,
 .faqs,
-.free {
+.free,
+.project,
+.schedule {
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-top: 4rem;
@@ -292,4 +296,177 @@ span {
   padding: 1rem 4rem;
   border-radius: 1rem;
   margin-top: 1.2rem;
+}
+/* request style------------------ */
+.request {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: black;
+  color: #fff;
+  margin-top: 2rem;
+  min-height: 40vh;
+  padding: 1.2rem;
+}
+.request_left {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.request_left h3 {
+  margin-top: 8rem;
+  font-size: 2rem;
+}
+.request_left p {
+  margin: 1.3rem 0;
+  max-width: 40rem;
+}
+.request_left input {
+  width: 60%;
+  outline: none;
+  padding: 1.2rem;
+  background-color: rgba(250, 227, 227, 0.333);
+  border: none;
+  border-radius: 0.8rem;
+}
+.request_right img {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+/* project style----------- */
+.project_head {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 1.1rem;
+}
+.project_left h3 {
+  font-weight: 800;
+  font-size: 2rem;
+}
+.project_left p {
+  max-width: 60%;
+  margin: 1.2rem 0;
+  line-height: 2;
+  font-size: 1.2rem;
+}
+.trues div p {
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 0;
+}
+.trues i {
+  background-color: green;
+  color: #fff;
+  border-radius: 50%;
+  padding: 0.3rem;
+}
+.project_right img {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+.static {
+  padding: 1rem 2rem;
+  background-color: #eee8ee;
+  width: 15%;
+  font-size: 2rem;
+  border-radius: 0.8rem;
+}
+.btns {
+  display: flex;
+  justify-content: space-evenly;
+}
+.prev {
+  padding: 1rem 2rem;
+  background-color: #eee8ee;
+  border-radius: 0.7rem;
+  border: 1px solid #eee8ee;
+  margin-right: 1.2rem;
+}
+.prev:hover {
+  border: 1px solid black;
+}
+.next {
+  padding: 1rem 2rem;
+  background-color: #eee8ee;
+  border-radius: 0.7rem;
+  border: 1px solid #eee8ee;
+}
+.next:hover {
+  border: 1px solid black;
+}
+/* .schedule style */
+.schedule {
+  background-color: #eee8eebb;
+}
+.schedule_course ul {
+  display: flex;
+  justify-content: center;
+}
+.schedule_course ul li {
+  margin: 0 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+.scedule_date ul {
+  display: flex;
+  justify-content: center;
+}
+.scedule_date ul li {
+  padding: 1.2rem 4rem;
+  background-color: #ffffff;
+  margin: 1rem 1.4rem;
+  font-weight: 900;
+  font-size: 2rem;
+  letter-spacing: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 0.8rem;
+}
+.course_register {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.2rem;
+}
+.course_register div span {
+  background-color: black;
+  color: #fff;
+  border-radius: 0.6rem;
+  font-size: 1.2rem;
+  padding: 0.4rem 0.8rem;
+}
+.course_register div p {
+  margin: 0 1.2rem;
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+.course_register div a {
+  font-size: 1.2rem;
+  background-color: coral;
+  color: #fff;
+  padding: 1rem 4rem;
+  border-radius: 1rem;
+  margin-top: 1.2rem;
+}
+/* footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.4rem;
+}
+.foot_item {
+  display: flex;
+}
+.foot_item div {
+  margin-right: 1.2rem;
+}
+.endd {
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+.foot_imgg img {
+  margin-left: 6rem;
+}
+.free_foot {
+  margin-top: 2.2rem;
 }
